@@ -1,7 +1,4 @@
 import React from "react";
-import Automation from "../../public/automation.svg";
-import Team from "../../public/team.svg";
-import Tool from "../../public/tools.svg";
 import Image from "next/image";
 import {
   EyeIcon,
@@ -20,7 +17,13 @@ export default function Section3() {
       <div className="flex flex-unwrap gap-8">
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
-            <Image alt="" src={Automation} className="w-40 h-auto" />
+            <Image
+              alt=""
+              width={600}
+              height={600}
+              src={"/automation.svg"}
+              className="w-40 h-auto"
+            />
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-semibold">Your pipeline on autopilot</p>
@@ -33,7 +36,13 @@ export default function Section3() {
         </div>
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
-            <Image alt="" src={Tool} className="w-58 h-auto" />
+            <Image
+              alt=""
+              height={600}
+              width={600}
+              src={"/tools.svg"}
+              className="w-58 h-auto"
+            />
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-semibold">
@@ -49,7 +58,13 @@ export default function Section3() {
         </div>
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
-            <Image alt="" src={Team} className="w-52 h-auto" />
+            <Image
+              alt=""
+              height={600}
+              width={600}
+              src={"/team.svg"}
+              className="w-52 h-auto"
+            />
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-semibold">A hive-mind for your team</p>

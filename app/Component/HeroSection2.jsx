@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import gmail from "../../public/gmail.png";
 import Link from "next/link";
 import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
@@ -10,7 +9,7 @@ export default function HeroSection2() {
       <div className="w-full bg-gradient-to-br from-teal-700 to-teal-900 h-[80%] polygon absolute z-0"></div>
       <div className="flex z-20 w-full px-60 gap-12 justify-center">
         <Image
-          src={gmail}
+          src={"/gmail.png"}
           width={600}
           height={600}
           alt=""

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import React from "react";
-import Logo from "../../public/logo.png";
 import Image from "next/image";
 
 export default function Footer() {
@@ -8,7 +7,13 @@ export default function Footer() {
     <div className="w-full h-[50vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10">
       <div className="flex justify-between px-60">
         <div>
-          <Image src={Logo} width={600} alt="" className="w-32" />
+          <Image
+            src={"/logo.png"}
+            height={600}
+            width={600}
+            alt=""
+            className="w-32 h-auto"
+          />
         </div>
         <div className="flex flex-col gap-4">
           <div className="uppercase text-gray-700 font-medium">Company</div>
