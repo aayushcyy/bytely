@@ -24,6 +24,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <title>UniByte - CRM for Gmail</title>
+      <link rel="icon" href="/favicon.png" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${montserrat.className} antialiased`}
       >

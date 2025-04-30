@@ -12,13 +12,14 @@ import {
 } from "@/components/ui/navigation-menu";
 import { ButtonDemo } from "./Button";
 import Link from "next/link";
+import Logo from "../../public/logo.png";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <nav className="bg-white w-full text-black py-3 px-60 flex flex-row justify-between items-center fixed z-50">
-      <Link href={"/"} className="text-2xl font-semibold">
-        UniByte
-      </Link>
+      <Image src={Logo} width={600} alt="" className="w-24" />
+
       <NavigationMenu className="">
         <NavigationMenuList className="">
           <NavigationMenuItem>
