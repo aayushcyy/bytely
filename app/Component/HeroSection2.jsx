@@ -7,7 +7,7 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 export default function HeroSection2() {
   return (
     <div className="w-full h-screen relative">
-      <div className="w-full bg-[#176164] h-[80%] polygon absolute z-0"></div>
+      <div className="w-full bg-gradient-to-br from-teal-700 to-teal-900 h-[80%] polygon absolute z-0"></div>
       <div className="flex z-20 w-full px-60 gap-12 justify-center">
         <Image
           src={gmail}

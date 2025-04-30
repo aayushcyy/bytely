@@ -55,7 +55,7 @@ export default function Navbar() {
         </NavigationMenuList>
       </NavigationMenu>
       <ButtonDemo
-        className="flex cursor-pointer bg-black text-white rounded-xl"
+        className="flex cursor-pointer bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl"
         text="View Use Cases"
       />
     </nav>

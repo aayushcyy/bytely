@@ -15,7 +15,7 @@ export default function HeroSection() {
         all in one intelligent platform.
       </p>
       <ButtonDemo
-        className="text-white text-sm bg-black rounded-xl cursor-pointer mt-5"
+        className="text-white text-sm bg-gradient-to-r from-teal-700 to-teal-900 rounded-xl cursor-pointer mt-5"
         text="View use cases"
       />
     </div>

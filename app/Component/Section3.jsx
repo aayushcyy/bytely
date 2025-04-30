@@ -136,7 +136,7 @@ export default function Section3() {
         </div>
         <div className="w-full flex justify-center mt-7">
           <ButtonDemo
-            className="px-3 py-1 bg-black text-white rounded-xl cursor-pointer hover:bg-[#000000e4] ease-in-out duration-300"
+            className="px-3 py-1 bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl cursor-pointer hover:bg-[#000000e4] ease-in-out duration-300"
             text="Get Started"
           />
         </div>
