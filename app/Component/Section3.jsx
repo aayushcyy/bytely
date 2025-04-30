@@ -3,14 +3,24 @@ import Automation from "../../public/automation.svg";
 import Team from "../../public/team.svg";
 import Tool from "../../public/tools.svg";
 import Image from "next/image";
+import {
+  EyeIcon,
+  EnvelopeIcon,
+  ClockIcon,
+  DocumentIcon,
+  ArrowsUpDownIcon,
+  ArrowRightIcon,
+} from "@heroicons/react/24/solid";
+import { ButtonDemo } from "./Button";
+import Link from "next/link";
 
 export default function Section3() {
   return (
-    <div className="w-full h-screen relative px-60">
+    <div className="w-full h-screen relative px-60 flex flex-col gap-16">
       <div className="flex flex-unwrap gap-8">
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
-            <Image src={Automation} className="w-40 h-auto" />
+            <Image alt="" src={Automation} className="w-40 h-auto" />
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-semibold">Your pipeline on autopilot</p>
@@ -23,7 +33,7 @@ export default function Section3() {
         </div>
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
-            <Image src={Tool} className="w-58 h-auto" />
+            <Image alt="" src={Tool} className="w-58 h-auto" />
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-semibold">
@@ -39,7 +49,7 @@ export default function Section3() {
         </div>
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
-            <Image src={Team} className="w-52 h-auto" />
+            <Image alt="" src={Team} className="w-52 h-auto" />
           </div>
           <div className="flex flex-col gap-2">
             <p className="text-lg font-semibold">A hive-mind for your team</p>
@@ -52,8 +62,85 @@ export default function Section3() {
           </div>
         </div>
       </div>
-      <div></div>
-      <div></div>
+      {/* features */}
+      <div className="flex flex-col gap-3">
+        <div>
+          <p className="text-lg font-semibold">Supercharge your inbox</p>
+        </div>
+        <div className="gap-x-8 gap-y-5 flex flex-wrap w-full text-sm">
+          <div className="flex w-[27%] gap-1">
+            <div>
+              <EyeIcon className="size-5" color="#176164" />
+            </div>
+            <div className="flex flex-col font-medium gap-1.5">
+              <p className="">View tracking</p>
+              <p className="font-normal">
+                Know instantly when people see your message
+              </p>
+            </div>
+          </div>
+          <div className="flex w-[33.5%] gap-1">
+            <div>
+              <EnvelopeIcon className="size-5" color="#176164" />
+            </div>
+            <div className="flex flex-col font-medium gap-1.5">
+              <p className="">Mail merge</p>
+              <p className="font-normal">
+                Send personalized emails to contact groups from your pipelines
+              </p>
+            </div>
+          </div>
+          <div className="flex w-[27%] gap-1">
+            <div>
+              <ClockIcon className="size-5" color="#176164" />
+            </div>
+            <div className="flex flex-col font-medium gap-1.5">
+              <p className="">Send later</p>
+              <p className="font-normal">
+                Schedule emails to be sent at just the right time
+              </p>
+            </div>
+          </div>
+          <div className="flex w-[27%] gap-1">
+            <div>
+              <DocumentIcon className="size-5" color="#176164" />
+            </div>
+            <div className="flex flex-col font-medium gap-1.5">
+              <p>Snippets</p>
+              <p className="font-normal">
+                Use a library of frequently written emails shared across your
+                team
+              </p>
+            </div>
+          </div>
+          <div className="flex w-[33.5%] gap-1">
+            <div>
+              <ArrowsUpDownIcon className="size-5" color="#176164" />
+            </div>
+            <div className="flex flex-col font-medium gap-1.5">
+              <p>Thread splitter</p>
+              <p className="font-normal">
+                Split conversations into separate email threads when topics
+                start to branch
+              </p>
+            </div>
+          </div>
+          <div>
+            <Link
+              href={"/"}
+              className="flex pl-6 text-[#176164] font-semibold gap-2"
+            >
+              Learn More <ArrowRightIcon className="size-5" color="#176164" />
+            </Link>
+          </div>
+        </div>
+        <div className="w-full flex justify-center mt-7">
+          <ButtonDemo
+            className="px-3 py-1 bg-black text-white rounded-xl cursor-pointer hover:bg-[#000000e4] ease-in-out duration-300"
+            text="Get Started"
+          />
+        </div>
+      </div>
     </div>
   );
 }
