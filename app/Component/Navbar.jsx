@@ -35,7 +35,9 @@ export default function Navbar() {
               <NavigationMenuLink href="/feature" className="w-40">
                 CRM
               </NavigationMenuLink>
-              <NavigationMenuLink href="#">Email Tracking</NavigationMenuLink>
+              <NavigationMenuLink href="/email-tracking">
+                Email Tracking
+              </NavigationMenuLink>
               <NavigationMenuLink href="#">Streak Share</NavigationMenuLink>
             </NavigationMenuContent>
           </NavigationMenuItem>
