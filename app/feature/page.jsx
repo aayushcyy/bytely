@@ -14,9 +14,11 @@ import {
   ChartBarIcon,
   UserIcon,
   ForwardIcon,
+  CheckIcon,
 } from "@heroicons/react/24/solid";
 import { HoverCardDemo } from "../Component/HoverCard";
 import Image from "next/image";
+import Footer from "../Component/Footer";
 
 export default function page() {
   const [imageToShow, setImageToShow] = useState("f1");
@@ -167,6 +169,64 @@ export default function page() {
           )}
         </div>
       </section>
+      {/* Section 3 */}
+      <section className="w-full py-20 px-62 flex flex-col items-center text-white bg-gradient-to-br from-[#074b48] to-[#095d59] gap-1">
+        <p className="text-3xl font-semibold">We scale with you</p>
+        <p className="text-2xl">
+          And check all the boxes with our pro features
+        </p>
+        <div className="flex flex-wrap gap-10 mt-11">
+          <div className="flex gap-2 w-[20%]">
+            <div className="pt-0.5">
+              <CheckIcon className="size-5 text-[#69faf2]" />
+            </div>
+            <div className="flex flex-col gap-1">
+              <p>Multi-team support</p>
+              <p className="text-xs text-gray-400">
+                Because everyone should use a CRM, from sales to hiring to
+                support
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-2 w-[20%]">
+            <div className="pt-0.5">
+              <CheckIcon className="size-5 text-[#69faf2]" />
+            </div>
+            <div className="flex flex-col gap-1">
+              <p>Multi-team support</p>
+              <p className="text-xs text-gray-400">
+                Because everyone should use a CRM, from sales to hiring to
+                support
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-2 w-[20%]">
+            <div className="pt-0.5">
+              <CheckIcon className="size-5 text-[#69faf2]" />
+            </div>
+            <div className="flex flex-col gap-1">
+              <p>Multi-team support</p>
+              <p className="text-xs text-gray-400">
+                Because everyone should use a CRM, from sales to hiring to
+                support
+              </p>
+            </div>
+          </div>
+          <div className="flex gap-2 w-[20%]">
+            <div className="pt-0.5">
+              <CheckIcon className="size-5 text-[#69faf2]" />
+            </div>
+            <div className="flex flex-col gap-1">
+              <p>Multi-team support</p>
+              <p className="text-xs text-gray-400">
+                Because everyone should use a CRM, from sales to hiring to
+                support
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }
