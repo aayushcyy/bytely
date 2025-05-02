@@ -8,7 +8,12 @@ import {
   ChatBubbleLeftEllipsisIcon,
   IdentificationIcon,
   HomeIcon,
+  MagnifyingGlassIcon,
+  ChartBarIcon,
+  UserIcon,
+  ForwardIcon,
 } from "@heroicons/react/24/solid";
+import { HoverCardDemo } from "../Component/HoverCard";
 
 export default function page() {
   let features = [
@@ -63,7 +68,7 @@ export default function page() {
             return (
               <div
                 key={index}
-                className="flex flex-col border-[1px] border-gray-300 hover:border-[#055651] hover:bg-[#05565113] rounded-sm cursor-pointer px-4 py-4 w-[23.5%] gap-2"
+                className="flex flex-col border-[1px] border-gray-300 hover:border-[#055651] hover:bg-[#05565113] transition-all ease-in-out duration-300 rounded-sm cursor-pointer px-4 py-4 w-[23.5%] gap-2"
               >
                 <div className="flex items-center font-medium justify-between">
                   <p>{item.heading}</p>{" "}
@@ -79,6 +84,42 @@ export default function page() {
             </div>
           </div>
         </div>
+      </section>
+      {/* Section 2 */}
+      <section className="border-t-[1px] border-gray-300 bg-[#FAFAFA] py-20 w-full h-[91vh] flex px-62">
+        <div className="w-[42%] flex flex-col gap-2">
+          <p className="text-3xl font-bold">Track everything</p>
+          <p className="text-2xl">and always have context</p>
+          <p className="text-sm text-gray-500 mb-2">
+            Information about your pipelines, contacts, and tasks directly in
+            your inbox and pocket.
+          </p>
+          <div>
+            <HoverCardDemo
+              triggerText="Custom views of your pipeline"
+              TriggerIcon={MagnifyingGlassIcon}
+              content="Search, filter, group, and sort your data in any configuration and
+              save the results as a custom view. Share with the entire team or
+              surface directly in your inbox."
+            />
+            <HoverCardDemo
+              triggerText="Share a time of emails, notes, and more"
+              TriggerIcon={ChartBarIcon}
+              content="Get the details you need no matter who worked on it last. Automatically track and share every interaction across your entire team, including emails, call logs, files, notes, tasks, and more."
+            />
+            <HoverCardDemo
+              triggerText="Understand who you are talking with"
+              TriggerIcon={UserIcon}
+              content="View details from your pipeline directly alongside emails. Automatically enrich your contacts with info such as name, company, and employee count."
+            />
+            <HoverCardDemo
+              triggerText="Know what to do next"
+              TriggerIcon={ForwardIcon}
+              content="See upcoming tasks across all your pipelines so you never forget to follow-up."
+            />
+          </div>
+        </div>
+        <div></div>
       </section>
     </div>
   );
