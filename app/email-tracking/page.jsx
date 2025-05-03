@@ -1,18 +1,58 @@
 import React from "react";
 import Navbar from "../Component/Navbar";
 import Image from "next/image";
+import { StarIcon } from "@heroicons/react/24/solid";
 
 export default function page() {
   return (
     <div className="w-full flex flex-col">
       <Navbar />
-      <section className="w-full h-[80vh] px-62 flex pt-20">
-        <div>
-          <p>Know when your email is viewed</p>
-          <p>Send your first tracked email in 30 seconds - right from Gmail</p>
+      <section className="w-full h-[90vh] px-62 flex pt-20 gap-10 items-center justify-center">
+        <div className="h-full flex flex-col justify-center w-[45%] gap-3">
+          <p className="text-5xl font-bold leading-14">
+            Know when your email is viewed
+          </p>
+          <p className="text-lg font-medium">
+            Send your first tracked email <br /> in 30 seconds - right from
+            Gmail
+          </p>
+          <div className="flex gap-3 mt-2">
+            <p className="flex gap-1">
+              <StarIcon className="size-5 text-yellow-500" />
+              <StarIcon className="size-5 text-yellow-500" />
+              <StarIcon className="size-5 text-yellow-500" />
+              <StarIcon className="size-5 text-yellow-500" />
+            </p>
+            <p className="text-sm text-gray-400">50,000+ positive reviews</p>
+          </div>
         </div>
-        <div>
-          <Image src="/emailTracking.png" alt="" width={600} height={600} />{" "}
+        <div className="flex justify-center items-center">
+          <Image
+            src="/emailTracking.png"
+            alt=""
+            width={600}
+            height={600}
+            className="w-[30rem] h-auto rounded-lg shadow"
+          />
+        </div>
+      </section>
+      <section className="w-full h-[80vh] px-62 flex flex-row-reverse border-t-[1px] border-gray-200 gap-10 justify-center">
+        <div className="h-full flex flex-col justify-center w-[45%] gap-3">
+          <p className="text-4xl font-semibold">Get notified</p>
+          <p className="text-3xl">when your email is opened</p>
+          <p className="text-gray-500">
+            Get immediately notified with a browser or email notification as
+            soon as the recipient opens your email.
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src="/emailTracking.png"
+            alt=""
+            width={600}
+            height={600}
+            className="w-[30rem] h-auto rounded-lg shadow"
+          />
         </div>
       </section>
     </div>
