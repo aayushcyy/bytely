@@ -59,7 +59,7 @@ export default function Navbar() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuLink href="#" className="font-medium">
+            <NavigationMenuLink href="/about" className="font-medium">
               About Us
             </NavigationMenuLink>
           </NavigationMenuItem>
@@ -67,7 +67,7 @@ export default function Navbar() {
       </NavigationMenu>
       <ButtonDemo
         className="flex cursor-pointer bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl"
-        text="View Use Cases"
+        text="Join us"
       />
     </nav>
   );

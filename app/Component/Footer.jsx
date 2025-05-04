@@ -23,7 +23,7 @@ export default function Footer() {
             <Link href={"/"} className="hover:text-[#005854]">
               About us
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/careers"} className="hover:text-[#005854]">
               Careers
             </Link>
             <Link href={"/"} className="hover:text-[#005854]">
