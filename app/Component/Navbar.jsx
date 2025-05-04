@@ -50,7 +50,9 @@ export default function Navbar() {
               <NavigationMenuLink href="/hiring-ats" className="w-48">
                 Hiring
               </NavigationMenuLink>
-              <NavigationMenuLink href="#">Support</NavigationMenuLink>
+              <NavigationMenuLink href="/support-crm">
+                Support
+              </NavigationMenuLink>
               <NavigationMenuLink href="#">
                 Product Development
               </NavigationMenuLink>
