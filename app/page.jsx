@@ -6,6 +6,7 @@ import Section3 from "./Component/Section3";
 import FeedbackPage from "./Component/FeedbackPage";
 import Section5 from "./Component/Section5";
 import Footer from "./Component/Footer";
+import Hiring from "./Component/Hiring";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Section3 />
       <FeedbackPage />
       <Section5 />
+      <Hiring />
       <Footer />
     </div>
   );

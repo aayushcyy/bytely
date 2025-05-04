@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Component/Navbar";
 import { ButtonDemo } from "../Component/Button";
 import Footer from "../Component/Footer";
+import Hiring from "../Component/Hiring";
 
 export default function page() {
   return (
@@ -21,6 +22,7 @@ export default function page() {
           className="bg-[#08514D] px-4 py-4 text-white cursor-pointer text-base rounded-lg hover:bg-gradient-to-r from-teal-900 to-teal-600 mt-10"
         />
       </section>
+      <Hiring />
       <Footer />
     </div>
   );

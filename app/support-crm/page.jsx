@@ -3,6 +3,7 @@ import Navbar from "../Component/Navbar";
 import Image from "next/image";
 import Footer from "../Component/Footer";
 import { ButtonDemo } from "../Component/Button";
+import Hiring from "../Component/Hiring";
 
 export default function page() {
   return (
@@ -160,6 +161,7 @@ export default function page() {
           />
         </section>
       </div>
+      <Hiring />
       <Footer />
     </div>
   );

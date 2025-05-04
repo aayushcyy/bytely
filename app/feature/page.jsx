@@ -19,6 +19,7 @@ import {
 import { HoverCardDemo } from "../Component/HoverCard";
 import Image from "next/image";
 import Footer from "../Component/Footer";
+import Hiring from "../Component/Hiring";
 
 export default function page() {
   const [imageToShow, setImageToShow] = useState("f1");
@@ -226,6 +227,7 @@ export default function page() {
           </div>
         </div>
       </section>
+      <Hiring />
       <Footer />
     </div>
   );

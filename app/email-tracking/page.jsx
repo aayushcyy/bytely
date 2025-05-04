@@ -3,6 +3,7 @@ import Navbar from "../Component/Navbar";
 import Image from "next/image";
 import { StarIcon } from "@heroicons/react/24/solid";
 import Footer from "../Component/Footer";
+import Hiring from "../Component/Hiring";
 
 export default function page() {
   return (
@@ -94,6 +95,7 @@ export default function page() {
           />
         </div>
       </section>
+      <Hiring />
       <Footer />
     </div>
   );
