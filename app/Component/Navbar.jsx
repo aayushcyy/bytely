@@ -39,7 +39,7 @@ export default function Navbar() {
               <NavigationMenuLink href="/email-tracking">
                 Email Tracking
               </NavigationMenuLink>
-              <NavigationMenuLink href="#">Streak Share</NavigationMenuLink>
+              {/* <NavigationMenuLink href="#">Streak Share</NavigationMenuLink> */}
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
@@ -47,7 +47,7 @@ export default function Navbar() {
               Workflows
             </NavigationMenuTrigger>
             <NavigationMenuContent className="bg-white">
-              <NavigationMenuLink href="#" className="w-48">
+              <NavigationMenuLink href="/hiring-ats" className="w-48">
                 Hiring
               </NavigationMenuLink>
               <NavigationMenuLink href="#">Support</NavigationMenuLink>
