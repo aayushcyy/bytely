@@ -20,14 +20,11 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <div className="uppercase text-gray-700 font-medium">Company</div>
           <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/about"} className="hover:text-[#005854]">
               About us
             </Link>
             <Link href={"/careers"} className="hover:text-[#005854]">
               Careers
-            </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Blog
             </Link>
             <Link href={"/"} className="hover:text-[#005854]">
               Terms
