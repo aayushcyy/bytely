@@ -8,12 +8,14 @@ import {
   CheckIcon,
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { AccordionDemo } from "../Component/Accordion";
 
 export default function page() {
   return (
     <div className="w-full flex flex-col">
       <Navbar />
       <div className="flex flex-col gap-20">
+        {/* hero */}
         <section className="flex flex-col pt-28 items-center gap-4">
           <p className="text-4xl font-semibold">We're hiring</p>
           <p className="text-2xl">It's the most important thing we do</p>
@@ -22,6 +24,7 @@ export default function page() {
             className="bg-[#08514D] px-4 py-3 text-white cursor-pointer text-base rounded-lg hover:bg-gradient-to-r from-teal-900 to-teal-600 mt-6"
           />
         </section>
+        {/* our values */}
         <section className="w-full py-20 flex flex-col px-60 bg-gradient-to-r from-teal-900 to-teal-600 text-white text-center">
           <p className="text-3xl font-semibold">Our values</p>
           <p className="text-2xl mt-1">and commitment to you</p>
@@ -114,6 +117,24 @@ export default function page() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+        {/* Hiring section */}
+        <section className="flex flex-col px-60">
+          <div className="flex flex-col gap-1">
+            <p className="text-3xl font-semibold">We value your time</p>
+            <p className="text-2xl">
+              We respond to every applicant, so you'll never be left in the dark
+            </p>
+          </div>
+          <span className="h-[1px] bg-gray-300 w-full my-10" />
+          {/* Engineering */}
+          <div>
+            <p className="text-lg font-semibold">
+              Engineering{" "}
+              <span className="text-[#0B504B] text-base">( 1 )</span>
+            </p>
+            <AccordionDemo outline="Staff UI Engineer" />
           </div>
         </section>
       </div>
