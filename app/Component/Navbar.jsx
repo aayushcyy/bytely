@@ -17,14 +17,15 @@ import Image from "next/image";
 export default function Navbar() {
   return (
     <nav className="bg-white w-full text-black py-3 px-60 flex flex-row justify-between items-center fixed z-50">
-      <Image
-        src={"/logo.png"}
-        height={600}
-        width={600}
-        alt=""
-        className="w-24 h-auto"
-      />
-
+      <Link href="/">
+        <Image
+          src={"/logo.png"}
+          height={600}
+          width={600}
+          alt=""
+          className="w-24 h-auto"
+        />
+      </Link>
       <NavigationMenu className="">
         <NavigationMenuList className="">
           <NavigationMenuItem>

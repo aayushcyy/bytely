@@ -7,13 +7,15 @@ export default function Footer() {
     <div className="w-full h-[50vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10">
       <div className="flex justify-between px-60">
         <div>
-          <Image
-            src={"/logo.png"}
-            height={600}
-            width={600}
-            alt=""
-            className="w-32 h-auto"
-          />
+          <Link href="/">
+            <Image
+              src={"/logo.png"}
+              height={600}
+              width={600}
+              alt=""
+              className="w-32 h-auto"
+            />
+          </Link>
         </div>
         <div className="flex flex-col gap-4">
           <div className="uppercase text-gray-700 font-medium">Company</div>

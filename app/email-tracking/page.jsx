@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Component/Navbar";
 import Image from "next/image";
 import { StarIcon } from "@heroicons/react/24/solid";
+import Footer from "../Component/Footer";
 
 export default function page() {
   return (
@@ -55,6 +56,45 @@ export default function page() {
           />
         </div>
       </section>
+      <section className="w-full h-[80vh] px-62 flex border-t-[1px] border-gray-200 gap-10 justify-center">
+        <div className="h-full flex flex-col justify-center w-[45%] gap-3">
+          <p className="text-4xl font-semibold">Turn on or off</p>
+          <p className="text-3xl">with a single-click</p>
+          <p className="text-gray-500">
+            Turn email tracking on or off with a simple toggle right in the
+            Gmail compose window.
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src="/turnOnOff.png"
+            alt=""
+            width={600}
+            height={600}
+            className="w-[30rem] h-auto rounded-lg shadow"
+          />
+        </div>
+      </section>
+      <section className="w-full h-[80vh] px-62 flex flex-row-reverse border-t-[1px] border-gray-200 gap-10 justify-center">
+        <div className="h-full flex flex-col justify-center w-[50%] gap-3">
+          <p className="text-4xl font-semibold">See all your tracked emails</p>
+          <p className="text-3xl">in an organized list</p>
+          <p className="text-gray-500">
+            Know exactly who to follow up with next based on when they opened
+            your last email. See all your tracked emails in chronological order.
+          </p>
+        </div>
+        <div className="flex justify-center items-center">
+          <Image
+            src="/trackedEmails.png"
+            alt=""
+            width={600}
+            height={600}
+            className="w-[30rem] h-auto rounded-lg shadow"
+          />
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }
