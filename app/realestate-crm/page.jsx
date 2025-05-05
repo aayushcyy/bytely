@@ -101,43 +101,44 @@ export default function page() {
       </section>
       <section className="w-full h-[80vh] px-62 py-28 flex gap-10 justify-center">
         <div className="h-full flex flex-col justify-center w-[48%] gap-3">
-          <p className="text-4xl font-semibold">Manage your capital raise</p>
-          <p className="text-3xl">and LP relationships</p>
+          <p className="text-4xl font-semibold">Build relationships</p>
+          <p className="text-3xl">with buyer and sellers</p>
           <p className="text-gray-500">
-            See a complete timeline of your interactions with each LP. Keep
-            track of their interests and personal details all in one place.
+            Gain valuable insights about your clients, access their data when
+            you need it, and always add a personal touch without ever leaving
+            Gmail.
           </p>
           <div>
             {/* para 1 */}
             <HoverCardDemo
-              triggerText="Investment history for each contact"
+              triggerText="360° view of your contacts and their history"
               TriggerIcon={UserCircleIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Search, filter, group, and sort your data in any configuration and save the results as a custom view. Share with the entire team or surface directly in your inbox."
+              content="See a timeline of each client's purchases, sales, and interactions to better understand their history - and where they're headed next."
             />
             <HoverCardDemo
-              triggerText="Track each capital raise"
+              triggerText="Information about your deals at your fingertips"
               TriggerIcon={ChartBarSquareIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Keep track of LPs throughout each stage of conversation and closing. See where you are in the process with data and insights right in Gmail."
+              content="See information about each client and deal right next to your email conversations. Find and update contacts, notes, dates, and recent activity without leaving your inbox."
             />
             <HoverCardDemo
-              triggerText="Quick access to the information you need"
+              triggerText="Develop meaningful connections with clients"
               TriggerIcon={ListBulletIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Automatically scrape attachments and documents from emails and add them to your pipelines. Quickly access pitch decks, financial documents, and partner updates without getting bogged down by data you don't need."
+              content="Take note of birthdays, anniversaries, and details like upcoming vacations. Surprise and delight in your next call or email by checking in on a personal level."
             />
             <HoverCardDemo
-              triggerText="Avoid crossing wires with your email outreach"
+              triggerText="Make consistency the key to your lasting relationships"
               TriggerIcon={ArrowsUpDownIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="No email faux-pax here. Get a heads up if you're about to email a contact who's already been in touch with someone on your team."
+              content="Make a great impression with consistent outreach. Move deals forward and keep clients engaged with tasks and reminders to follow-up."
             />
           </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/capitalRaise.png"
+            src="/360deg.png"
             alt=""
             width={600}
             height={600}
