@@ -13,7 +13,7 @@ import Link from "next/link";
 
 export default function Section3() {
   return (
-    <div className="w-full h-screen relative px-60 flex flex-col gap-16">
+    <div className="w-full xl:h-screen relative xl:px-60 lg:px-[14vw] flex flex-col gap-16 lg:pb-20 xl:pb-0">
       <div className="flex flex-unwrap gap-8">
         <div className="flex flex-col">
           <div className="flex justify-center h-40">
@@ -78,12 +78,12 @@ export default function Section3() {
         </div>
       </div>
       {/* features */}
-      <div className="flex flex-col gap-3">
+      <div className="flex flex-col xl:gap-3 lg:gap-5">
         <div>
           <p className="text-lg font-semibold">Supercharge your inbox</p>
         </div>
         <div className="gap-x-8 gap-y-5 flex flex-wrap w-full text-sm">
-          <div className="flex w-[27%] gap-1">
+          <div className="flex w-[27%] xl:gap-1 lg:gap-2">
             <div>
               <EyeIcon className="size-5" color="#176164" />
             </div>
@@ -94,7 +94,7 @@ export default function Section3() {
               </p>
             </div>
           </div>
-          <div className="flex w-[33.5%] gap-1">
+          <div className="flex w-[33.5%] xl:gap-1 lg:gap-2">
             <div>
               <EnvelopeIcon className="size-5" color="#176164" />
             </div>
@@ -105,7 +105,7 @@ export default function Section3() {
               </p>
             </div>
           </div>
-          <div className="flex w-[27%] gap-1">
+          <div className="flex w-[27%] xl:gap-1 lg:gap-2">
             <div>
               <ClockIcon className="size-5" color="#176164" />
             </div>
@@ -116,7 +116,7 @@ export default function Section3() {
               </p>
             </div>
           </div>
-          <div className="flex w-[27%] gap-1">
+          <div className="flex w-[27%] xl:gap-1 lg:gap-2">
             <div>
               <DocumentIcon className="size-5" color="#176164" />
             </div>
@@ -128,7 +128,7 @@ export default function Section3() {
               </p>
             </div>
           </div>
-          <div className="flex w-[33.5%] gap-1">
+          <div className="flex w-[33.5%] xl:gap-1 lg:gap-2">
             <div>
               <ArrowsUpDownIcon className="size-5" color="#176164" />
             </div>

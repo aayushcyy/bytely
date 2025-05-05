@@ -5,20 +5,22 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
 export default function HeroSection2() {
   return (
-    <div className="w-full h-screen relative">
-      <div className="w-full bg-gradient-to-br from-teal-700 to-teal-900 h-[80%] polygon absolute z-0"></div>
-      <div className="flex z-20 w-full px-60 gap-12 justify-center">
+    <div className="w-full xl:h-screen lg:h-[65vh] relative">
+      <div className="w-full bg-gradient-to-br from-teal-700 to-teal-900 xl:h-[80%] lg:h-[75%] polygon absolute z-0"></div>
+      <div className="flex z-20 w-full xl:px-60 lg:px-[14vw] xl:gap-12 lg:gap-8 justify-center">
         <Image
           src={"/gmail.png"}
           width={600}
           height={600}
           alt=""
-          className="w-[55%] h-auto z-20 rounded-lg"
+          className="xl:w-[55%] lg:w-[50%] h-auto z-20 rounded-lg"
           placeholder="empty"
         />
         <div className="z-20 gap-3 flex flex-col justify-center text-white text-sm">
-          <div className="uppercase text-base -mb-2">CRM Built into gmail</div>
-          <div className="text-4xl font-semibold">
+          <div className="uppercase text-base xl:-mb-2">
+            CRM Built into gmail
+          </div>
+          <div className="xl:text-4xl lg:text-3xl font-semibold">
             Keep your pipeline moving
           </div>
           <div className="">

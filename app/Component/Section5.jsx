@@ -7,7 +7,7 @@ import {
 
 export default function Section5() {
   return (
-    <div className="w-full flex flex-col gap-14 justify-center h-[50vh] px-60">
+    <div className="w-full flex flex-col gap-14 justify-center h-[50vh] xl:px-60 lg:px-36">
       <div className="flex flex-col gap-1">
         <p className="uppercase text-sm text-gray-500">
           Checking all the boxes

@@ -8,8 +8,8 @@ import { SonnerDemo } from "./Sonner.jsx";
 
 export default function Footer() {
   return (
-    <div className="w-full h-[50vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10">
-      <div className="flex justify-between px-60">
+    <div className="w-full xl:h-[50vh] lg:h-[35vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10">
+      <div className="flex justify-between xl:px-60 lg:px-40">
         <div className="flex flex-col gap-2">
           <Link href="/">
             <Image

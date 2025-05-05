@@ -65,18 +65,18 @@ export default function page() {
     <div className="w-full flex flex-col">
       <Navbar />
       {/* Section 1 */}
-      <section className="w-full h-[70vh] py-3 px-62 flex flex-col pt-20 relative">
+      <section className="w-full xl:h-[70vh] lg:h-[55vh] py-3 xl:px-62 lg:px-36 flex flex-col pt-20 relative">
         <p className="uppercase">Use Cases</p>
         <p className="text-3xl font-bold">
           Manage any workflow from your inbox
         </p>
-        <div className="flex flex-wrap gap-4 w-full mt-12">
+        <div className="flex flex-wrap xl:gap-4 lg:gap-3 w-full xl:mt-12 lg:mt-5">
           {features.map((item, index) => {
             const Icon = item.icon;
             return (
               <div
                 key={index}
-                className="flex flex-col border-[1px] border-gray-300 hover:border-[#055651] hover:bg-[#05565113] transition-all ease-in-out duration-300 rounded-sm cursor-pointer px-4 py-4 w-[23.5%] gap-2"
+                className="flex flex-col border-[1px] border-gray-300 hover:border-[#055651] hover:bg-[#05565113] transition-all ease-in-out duration-300 rounded-sm cursor-pointer xl:px-4 xl:py-4 lg:px-2 lg:py-2 w-[23.5%] gap-2"
               >
                 <div className="flex items-center font-medium justify-between">
                   <p>{item.heading}</p>{" "}
@@ -94,11 +94,11 @@ export default function page() {
         </div>
       </section>
       {/* Section 2 */}
-      <section className="border-t-[1px] border-gray-300 bg-[#FAFAFA] py-20 w-full h-[91vh] flex px-62 gap-10">
-        <div className="w-[42%] flex flex-col gap-2">
-          <p className="text-3xl font-bold">Track everything</p>
-          <p className="text-2xl">and always have context</p>
-          <p className="text-sm text-gray-500 mb-2">
+      <section className="border-t-[1px] border-gray-300 bg-[#FAFAFA] py-20 w-full xl:h-[91vh] lg:h-[60vh] flex xl:px-62 lg:px-36 gap-10">
+        <div className="xl:w-[42%] lg:w-[45%] flex flex-col gap-2">
+          <p className="xl:text-3xl lg:text-2xl font-bold">Track everything</p>
+          <p className="xl:text-2xl lg:text-xl">and always have context</p>
+          <p className="text-sm text-gray-500 xl:mb-2 lg:mb-1">
             Information about your pipelines, contacts, and tasks directly in
             your inbox and pocket.
           </p>
@@ -131,7 +131,7 @@ export default function page() {
             />
           </div>
         </div>
-        <div className="w-[50%] flex items-center pb-28 justify-center">
+        <div className="w-[50%] flex items-center xl:pb-28 lg:pb-5 justify-center">
           {imageToShow === "f2" && (
             <Image
               width={600}
@@ -171,9 +171,11 @@ export default function page() {
         </div>
       </section>
       {/* Section 3 */}
-      <section className="w-full py-20 px-62 flex flex-col items-center text-white bg-gradient-to-br from-[#074b48] to-[#095d59] gap-1">
-        <p className="text-3xl font-semibold">We scale with you</p>
-        <p className="text-2xl">
+      <section className="w-full py-20 xl:px-62 lg:px-36 flex flex-col items-center text-white bg-gradient-to-br from-[#074b48] to-[#095d59] gap-1">
+        <p className="xl:text-3xl lg:text-2xl font-semibold">
+          We scale with you
+        </p>
+        <p className="xl:text-2xl lg:text-xl">
           And check all the boxes with our pro features
         </p>
         <div className="flex flex-wrap gap-10 mt-11">
@@ -194,10 +196,9 @@ export default function page() {
               <CheckIcon className="size-5 text-[#69faf2]" />
             </div>
             <div className="flex flex-col gap-1">
-              <p>Multi-team support</p>
+              <p>Custom permissions</p>
               <p className="text-xs text-gray-400">
-                Because everyone should use a CRM, from sales to hiring to
-                support
+                So you can control who has access to your information
               </p>
             </div>
           </div>
@@ -206,10 +207,9 @@ export default function page() {
               <CheckIcon className="size-5 text-[#69faf2]" />
             </div>
             <div className="flex flex-col gap-1">
-              <p>Multi-team support</p>
+              <p>Data validation</p>
               <p className="text-xs text-gray-400">
-                Because everyone should use a CRM, from sales to hiring to
-                support
+                To make sure your team is consistent and accurate
               </p>
             </div>
           </div>
@@ -218,10 +218,9 @@ export default function page() {
               <CheckIcon className="size-5 text-[#69faf2]" />
             </div>
             <div className="flex flex-col gap-1">
-              <p>Multi-team support</p>
+              <p>Reporting tools</p>
               <p className="text-xs text-gray-400">
-                Because everyone should use a CRM, from sales to hiring to
-                support
+                So you can visualize your teams progress
               </p>
             </div>
           </div>

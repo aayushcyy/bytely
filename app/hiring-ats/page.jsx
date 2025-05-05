@@ -9,18 +9,20 @@ export default function page() {
   return (
     <div className="w-full flex flex-col">
       <Navbar />
-      <div className="flex flex-col gap-32 w-full items-center">
-        <section className="pt-32 flex flex-col items-center gap-1">
+      <div className="flex flex-col gap-32 w-full items-center lg:px-36 xl:px-0">
+        <section className="pt-32 flex flex-col items-center gap-1 lg:text-center xl:text-start">
           <p className="text-2xl font-semibold">All in One</p>
-          <p className="text-5xl font-semibold">CRM for Hiring</p>
+          <p className="xl:text-5xl lg:text-4xl font-semibold">
+            CRM for Hiring
+          </p>
           <p className="text-lg mt-3 font-medium">
             Manage the entire recruiting journey from first contact to final
             hire all within your inbox.
           </p>
         </section>
-        <section className="flex justify-center items-center w-full gap-10">
-          <div className="flex flex-col gap-5 w-[35%]">
-            <p className="text-3xl font-semibold">
+        <section className="flex justify-center items-center w-full xl:gap-10 lg:gap-5">
+          <div className="flex flex-col gap-5 xl:w-[35%]">
+            <p className="xl:text-3xl lg:text-2xl xl:font-semibold lg:font-bold">
               Track Hiring Right Inside Email
             </p>
             <div className="flex flex-col gap-3">
@@ -52,9 +54,9 @@ export default function page() {
             />
           </div>
         </section>
-        <section className="flex flex-row-reverse justify-center items-center w-full gap-10">
-          <div className="flex flex-col gap-5 w-[35%]">
-            <p className="text-3xl font-semibold">
+        <section className="flex flex-row-reverse justify-center items-center w-full xl:gap-10 lg:gap-5">
+          <div className="flex flex-col gap-5 xl:w-[35%] lg:w-[65%]">
+            <p className="xl:text-3xl lg:text-2xl xl:font-semibold lg:font-bold">
               Seamless Collaboration & Smart Organization
             </p>
             <div className="flex flex-col gap-3">
@@ -84,9 +86,9 @@ export default function page() {
             />
           </div>
         </section>
-        <section className="flex justify-center items-center w-full gap-10">
-          <div className="flex flex-col gap-5 w-[35%]">
-            <p className="text-3xl font-semibold">
+        <section className="flex justify-center items-center w-full xl:gap-10 lg:gap-5">
+          <div className="flex flex-col gap-5 xl:w-[35%]">
+            <p className="xl:text-3xl lg:text-2xl xl:font-semibold lg:font-bold">
               Automate & Personalize Your Workflow
             </p>
             <div className="flex flex-col gap-3">
@@ -118,9 +120,9 @@ export default function page() {
             />
           </div>
         </section>
-        <section className="flex flex-row-reverse justify-center items-center w-full gap-10">
-          <div className="flex flex-col gap-5 w-[35%]">
-            <p className="text-3xl font-semibold">
+        <section className="flex flex-row-reverse justify-center items-center w-full xl:gap-10 lg:gap-5">
+          <div className="flex flex-col gap-5 xl:w-[35%] lg:w-[65%]">
+            <p className="xl:text-3xl lg:text-2xl xl:font-semibold lg:font-bold">
               Visualize & Optimize Your Hiring Pipeline
             </p>
             <div className="flex flex-col gap-3">
@@ -150,8 +152,8 @@ export default function page() {
             />
           </div>
         </section>
-        <span className="h-[1px] bg-gray-200 w-[30%]"></span>
-        <section className="flex flex-col justify-center items-center w-full gap-10 pb-36">
+        <span className="h-[1px] bg-gray-200 xl:w-[30%] lg:w-[45%]"></span>
+        <section className="flex flex-col justify-center items-center w-full xl:gap-10 lg:gap-5 xl:pb-36 lg:pb-28">
           <p className="text-4xl font-semibold">Still not sure?</p>
           <p className="text-xl font-medium text-gray-600 text-center leading-10">
             Try UniByte free for 14 days. And because you <br /> already know

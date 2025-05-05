@@ -33,7 +33,7 @@ export default function Navbar() {
               Product
             </NavigationMenuTrigger>
             <NavigationMenuContent className="bg-white">
-              <NavigationMenuLink href="/feature" className="w-40">
+              <NavigationMenuLink href="/feature" className="xl:w-40 lg:w-32">
                 CRM
               </NavigationMenuLink>
               <NavigationMenuLink href="/email-tracking">

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <div className="w-full h-[90vh] py-3 px-72 flex flex-col items-center gap-5 justify-center pt-20">
+    <div className="w-full h-[90vh] py-3 px-72 lg:px-[6vw] flex flex-col items-center gap-5 justify-center pt-20">
       <p className="text-[#176164] uppercase text-sm font-semibold">
         Manage everything from Gmail
       </p>
