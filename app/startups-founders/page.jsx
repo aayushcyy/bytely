@@ -14,10 +14,11 @@ import {
   CalendarDaysIcon,
   ChatBubbleLeftRightIcon,
   LightBulbIcon,
+  EyeIcon,
 } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import Hiring from "../Component/Hiring";
-import { ClipboardIcon } from "@heroicons/react/24/outline";
+import { ClipboardIcon, DocumentIcon } from "@heroicons/react/24/outline";
 
 export default function page() {
   return (
@@ -103,44 +104,38 @@ export default function page() {
       </section>
       <section className="w-full h-[80vh] px-62 py-28 flex gap-10 justify-center">
         <div className="h-full flex flex-col justify-center w-[48%] gap-3">
-          <p className="text-4xl font-semibold">Build relationships</p>
-          <p className="text-3xl">with buyer and sellers</p>
+          <p className="text-4xl font-semibold">Hire a successful team</p>
+          <p className="text-3xl">to scale your startup</p>
           <p className="text-gray-500">
-            Gain valuable insights about your clients, access their data when
-            you need it, and always add a personal touch without ever leaving
-            Gmail.
+            Don't let recruitment and hiring eat away at your time. Track
+            referrals, applications, and interviews right inside Gmail. Share
+            notes from interviews and save time on bulk outreach.
           </p>
           <div>
             {/* para 1 */}
             <HoverCardDemo
-              triggerText="360° view of your contacts and their history"
-              TriggerIcon={UserCircleIcon}
-              //   onMouseEnter={() => setImageToShow("f1")}
-              content="See a timeline of each client's purchases, sales, and interactions to better understand their history - and where they're headed next."
-            />
-            <HoverCardDemo
-              triggerText="Information about your deals at your fingertips"
-              TriggerIcon={ChartBarSquareIcon}
-              //   onMouseEnter={() => setImageToShow("f1")}
-              content="See information about each client and deal right next to your email conversations. Find and update contacts, notes, dates, and recent activity without leaving your inbox."
-            />
-            <HoverCardDemo
-              triggerText="Develop meaningful connections with clients"
+              triggerText="Track candidates for multiple roles in one pipeline"
               TriggerIcon={ListBulletIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Take note of birthdays, anniversaries, and details like upcoming vacations. Surprise and delight in your next call or email by checking in on a personal level."
+              content="Customize a pre-built pipeline template in minutes to start tracking all of your candidates in once place. Use filters to see who has an interview this week or to find all of your applications for a certain role."
             />
             <HoverCardDemo
-              triggerText="Make consistency the key to your lasting relationships"
-              TriggerIcon={ArrowsUpDownIcon}
+              triggerText="Follow up with candidates in bulk using mail merge"
+              TriggerIcon={BellAlertIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Make a great impression with consistent outreach. Move deals forward and keep clients engaged with tasks and reminders to follow-up."
+              content="Save time updating candidates or moving them to the next step. Get back to each candidate in a timely fashion with personalized, mass emails to each applicant."
+            />
+            <HoverCardDemo
+              triggerText="Debrief on candidate interviews"
+              TriggerIcon={CalendarDaysIcon}
+              //   onMouseEnter={() => setImageToShow("f1")}
+              content="Share thoughts with your team and learn how each step of the process went. Record call logs, internal notes, and share emails directly in Gmail."
             />
           </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/360deg.png"
+            src="/hireTeam.png"
             alt=""
             width={600}
             height={600}
@@ -203,44 +198,45 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="w-full h-[80vh] px-62 py-40 flex flex-row-reverse gap-10 justify-center bg-[#FAF6FC]">
+      <section className="w-full h-[80vh] px-62 py-40 flex flex-row-reverse gap-10 justify-center">
         <div className="h-full flex flex-col justify-center w-[45%] gap-3">
-          <p className="text-4xl font-semibold">Create tasks and follow up</p>
-          <p className="text-3xl">for every step of your process</p>
+          <p className="text-4xl font-semibold">Gain insight</p>
+          <p className="text-3xl">
+            with customer interviews and market research
+          </p>
           <p className="text-gray-500">
-            Quit relying on your memory or your scratch pad to get everything
-            done. Make sure nothing slips through the cracks with tasks for
-            every step of your process.
+            Work more efficiently in your inbox and reach buyers and sellers at
+            the right time with targeted follow-up.
           </p>
           <div>
             {/* para 1 */}
             <HoverCardDemo
-              triggerText="Custom task lists for each stage"
-              TriggerIcon={ListBulletIcon}
+              triggerText="Upload customer lists with the importer tool"
+              TriggerIcon={EyeIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Create tasks for property showings, due diligence, and each step of your process to keep deals moving forward. Automate task list creation for a more streamlined workforce."
+              content="Use Google Sheets or a cs to upload bulk lists of customers, email addresses, and other data. Create a full pipeline ready for interviews in minutes. We'll enrich your contacts with valuable data of our own."
             />
             <HoverCardDemo
-              triggerText="Know what needs to get done at a glance"
-              TriggerIcon={BellAlertIcon}
+              triggerText="Send personalized mass emails"
+              TriggerIcon={DocumentIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Create custom views of your buyer, seller, and other important tasks. Surface them right in your inbox so you know what needs to get done each day."
+              content="Reach more people with mail merge in gmail. Send personalized messages in mass and schedule automatic follow-up to get more responses and conversations scheduled."
             />
             <HoverCardDemo
-              triggerText="Sync tasks with Google Calendar"
-              TriggerIcon={CalendarDaysIcon}
+              triggerText="Record notes for each customer in Gmail"
+              TriggerIcon={EnvelopeIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="See your tasks displayed in Google Calendar to help plan your day."
+              content="Keep track of important details from each conversation with notes in your pipelines. Better yet, add recordings of your calls to each box for easy access and future reference."
             />
           </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/customTasks.png"
+            src="/gainInsights.png"
             alt=""
             width={600}
             height={600}
-            className="w-[30rem] h-auto rounded-lg border-[1px] border-[#3f807920]"
+            className="w-[30rem] h-auto rounded-lg"
           />
         </div>
       </section>
