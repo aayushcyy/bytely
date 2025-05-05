@@ -6,8 +6,7 @@ import {
   StarIcon,
   EnvelopeIcon,
   ChartBarSquareIcon,
-  MagnifyingGlassIcon,
-  PaperClipIcon,
+  BellAlertIcon,
   UserCircleIcon,
   ListBulletIcon,
   ArrowsUpDownIcon,
@@ -203,41 +202,42 @@ export default function page() {
       </section>
       <section className="w-full h-[80vh] px-62 py-40 flex flex-row-reverse gap-10 justify-center bg-[#FAF6FC]">
         <div className="h-full flex flex-col justify-center w-[45%] gap-3">
-          <p className="text-4xl font-semibold">Stay on top of support</p>
-          <p className="text-3xl">for your portfolio companies</p>
+          <p className="text-4xl font-semibold">Create tasks and follow up</p>
+          <p className="text-3xl">for every step of your process</p>
           <p className="text-gray-500">
-            Coordinate support and stay in touch with each company in your
-            portfolio.
+            Quit relying on your memory or your scratch pad to get everything
+            done. Make sure nothing slips through the cracks with tasks for
+            every step of your process.
           </p>
           <div>
             {/* para 1 */}
             <HoverCardDemo
-              triggerText="Create tasks to help your portfolio companies succeed"
-              TriggerIcon={ShieldCheckIcon}
+              triggerText="Custom task lists for each stage"
+              TriggerIcon={ListBulletIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Organize tasks, keep track of support for your portfolio companies, and see what's already been done in each stage."
+              content="Create tasks for property showings, due diligence, and each step of your process to keep deals moving forward. Automate task list creation for a more streamlined workforce."
             />
             <HoverCardDemo
-              triggerText="Communicate efficiently with your portfolio companies"
-              TriggerIcon={EnvelopeIcon}
+              triggerText="Know what needs to get done at a glance"
+              TriggerIcon={BellAlertIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Send and schedule mail merges with automatic follow-up to stay in touch with your portfolio companies. Share updates in newsletters, request information, and track engagement in Gmail."
+              content="Create custom views of your buyer, seller, and other important tasks. Surface them right in your inbox so you know what needs to get done each day."
             />
             <HoverCardDemo
-              triggerText="Diligently follow up on calls and meetings"
+              triggerText="Sync tasks with Google Calendar"
               TriggerIcon={ChatBubbleLeftRightIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Make sure nothing slips through the cracks when your day is stacked with calls. Take notes and create follow-up tasks while you're on a call or in a meeting."
+              content="See your tasks displayed in Google Calendar to help plan your day."
             />
           </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/topSupport.png"
+            src="/customTasks.png"
             alt=""
             width={600}
             height={600}
-            className="w-[30rem] h-auto rounded-lg"
+            className="w-[30rem] h-auto rounded-lg border-[1px] border-[#3f807920]"
           />
         </div>
       </section>
