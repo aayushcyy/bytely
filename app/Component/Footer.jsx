@@ -62,10 +62,10 @@ export default function Footer() {
             <Link href={"/small-businesses"} className="hover:text-[#005854]">
               Small Businesses
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Travel Agencies
-            </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link
+              href={"/influencer-talent-agency"}
+              className="hover:text-[#005854]"
+            >
               Influencer Agencies
             </Link>
           </div>
