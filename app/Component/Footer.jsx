@@ -82,7 +82,7 @@ export default function Footer() {
             <Link href={"/schedule"} className="hover:text-[#005854]">
               Send later
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/snippets-feature"} className="hover:text-[#005854]">
               Snippets
             </Link>
             <Link href={"/"} className="hover:text-[#005854]">
