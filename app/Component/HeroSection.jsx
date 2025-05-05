@@ -1,5 +1,6 @@
 import React from "react";
 import { ButtonDemo } from "./Button";
+import { SonnerDemo } from "./Sonner";
 
 export default function HeroSection() {
   return (

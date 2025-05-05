@@ -1,12 +1,16 @@
+"use client";
+
 import Link from "next/link";
+import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import React from "react";
 import Image from "next/image";
+import { SonnerDemo } from "./Sonner.jsx";
 
 export default function Footer() {
   return (
     <div className="w-full h-[50vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10">
       <div className="flex justify-between px-60">
-        <div>
+        <div className="flex flex-col gap-2">
           <Link href="/">
             <Image
               src={"/logo.png"}
@@ -16,6 +20,17 @@ export default function Footer() {
               className="w-32 h-auto"
             />
           </Link>
+          <p className="text-sm flex items-center gap-1">
+            <span>
+              <EnvelopeIcon className="size-4 stroke-1.5" />
+            </span>
+            <Link
+              href="mailto:info@unibyte.in"
+              className="text-[#005854] font-medium"
+            >
+              info@unibyte.in
+            </Link>
+          </p>
         </div>
         <div className="flex flex-col gap-4">
           <div className="uppercase text-gray-700 font-medium">Company</div>
@@ -29,9 +44,7 @@ export default function Footer() {
             <Link href={"/"} className="hover:text-[#005854]">
               Terms
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Contact us
-            </Link>
+            <SonnerDemo />
           </div>
         </div>
         <div className="flex flex-col gap-4">
