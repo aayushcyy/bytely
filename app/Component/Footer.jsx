@@ -48,26 +48,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <div className="uppercase text-gray-700 font-medium">Resources</div>
-          <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
-            <Link href={"/"} className="hover:text-[#005854]">
-              Help
-            </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Referral program
-            </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Advanced
-            </Link>
-          </div>
-        </div>
-        <div className="flex flex-col gap-4">
           <div className="uppercase text-gray-700 font-medium">Industry</div>
           <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/venture-capital"} className="hover:text-[#005854]">
               Venture Capital
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/realestate-crm"} className="hover:text-[#005854]">
               Real Estate
             </Link>
             <Link href={"/"} className="hover:text-[#005854]">
