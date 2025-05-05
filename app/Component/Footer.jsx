@@ -56,7 +56,7 @@ export default function Footer() {
             <Link href={"/realestate-crm"} className="hover:text-[#005854]">
               Real Estate
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/startups-founders"} className="hover:text-[#005854]">
               Startups
             </Link>
             <Link href={"/"} className="hover:text-[#005854]">

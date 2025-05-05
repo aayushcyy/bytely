@@ -26,25 +26,27 @@ export default function page() {
       <section className="w-full h-[90vh] px-62 flex pt-20 gap-10 items-center justify-center">
         <div className="h-full flex flex-col justify-center w-[45%] gap-3">
           <p className="text-5xl font-bold leading-14">
-            Real Estate CRM in Gmail
+            CRM for startup founders
           </p>
           <p className="text-lg font-medium">
-            Manage buyers, sellers, and transactions with pipelines in Gmail.
+            Manage your startup fundraising, close deals, and support new
+            customers in Gmail. A true multi-tool for startup founders.
           </p>
           <div className="flex gap-3 mt-2">
             <p className="flex gap-1">
               <StarIcon className="size-5 text-yellow-500" />
               <StarIcon className="size-5 text-yellow-500" />
               <StarIcon className="size-5 text-yellow-500" />
+              <StarIcon className="size-5 text-yellow-500" />
             </p>
             <p className="text-sm text-gray-400 pt-0.5">
-              17,000+ positive reviews
+              21,000+ positive reviews
             </p>
           </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/realestate.png"
+            src="/founders.png"
             alt=""
             width={600}
             height={600}
@@ -54,43 +56,44 @@ export default function page() {
       </section>
       <section className="w-full h-[80vh] px-62 py-28 flex flex-row-reverse gap-10 justify-center">
         <div className="h-full flex flex-col justify-center w-[45%] gap-3">
-          <p className="text-4xl font-semibold">Organize transactions</p>
-          <p className="text-3xl">and documents in Gmail</p>
+          <p className="text-4xl font-semibold">Startup fundraising</p>
+          <p className="text-3xl">in your inbox</p>
           <p className="text-gray-500">
-            Keep track of all the details and documents you need to close a deal
-            in one place.
+            Many reputated starups uses UniByte to manage startup fundraising
+            for each batch, and so can you. Stay on top of conversations and
+            follow up with investors to close a successful round.
           </p>
           <div>
             {/* para 1 */}
             <HoverCardDemo
-              triggerText="Real Estate data seamlessly integrated into Gmall"
+              triggerText="Keep investor conversations organized"
               TriggerIcon={EnvelopeIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Create a database for your listings, buyers, and sellers. Keep track of each transaction with customizable pipeline templates."
+              content="Track conversations with hundreds of investors through each step of your fundraising process. Find your notes, conversation histories, follow-up tasks, and more surfaced next to each investor email."
             />
             <HoverCardDemo
-              triggerText="All your documents in one place"
+              triggerText="Set up failsafe systems to stay on top of follow-up"
               TriggerIcon={ClipboardIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Organize and share contracts, disclosures, and receipts along with your emails in Gmail - where you're already working."
+              content="Don't let conversations with investors go cold. Create pipeline filters to find who hasn't responded to your last email and use our dozens of Integrations and Automations to help set automatic tasks to follow up."
             />
             <HoverCardDemo
-              triggerText="Customize your pipeline to match your way"
+              triggerText="Start tracking important details with pipeline"
               TriggerIcon={ChartBarSquareIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Track what's important to you with custom data fields. Easily add and rename stages for each step of your process and create task lists to close your deals faster."
+              content="Spend less time setting up your CRM and more time proving value to investors. The fundraising pipeline template lets you start tracking important details and next steps in just minutes."
             />
             <HoverCardDemo
-              triggerText="Calculate commission and gain insights"
+              triggerText="Keep documents, contracts, and slide decks in one place"
               TriggerIcon={LightBulbIcon}
               //   onMouseEnter={() => setImageToShow("f1")}
-              content="Let your pipeline work for you. Calculate commissions automatically with formula columns, see real-time interaction data for your contacts, and gain insights to close more deals."
+              content="Organize every email conversation and file in an auto-generated timeline for each potential investor. Add your own notes from calls and meetings and your to-do list for next steps."
             />
           </div>
         </div>
         <div className="flex justify-center items-center">
           <Image
-            src="/realestate.png"
+            src="/investorConversation.png"
             alt=""
             width={600}
             height={600}
