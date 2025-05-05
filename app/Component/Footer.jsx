@@ -41,7 +41,7 @@ export default function Footer() {
             <Link href={"/careers"} className="hover:text-[#005854]">
               Careers
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/terms"} className="hover:text-[#005854]">
               Terms
             </Link>
             <SonnerDemo />
@@ -73,16 +73,13 @@ export default function Footer() {
         <div className="flex flex-col gap-4">
           <div className="uppercase text-gray-700 font-medium">Feature</div>
           <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/feature"} className="hover:text-[#005854]">
               CRM
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/email-tracking"} className="hover:text-[#005854]">
               Email tracking
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Mail merge
-            </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
+            <Link href={"/schedule"} className="hover:text-[#005854]">
               Send later
             </Link>
             <Link href={"/"} className="hover:text-[#005854]">
