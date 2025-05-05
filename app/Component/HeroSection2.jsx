@@ -46,7 +46,7 @@ export default function HeroSection2() {
             </div>
           </div>
           <Link
-            href={"/"}
+            href={"/feature"}
             className="uppercase flex items-center text-xs font-semibold gap-1 mt-3"
           >
             View all features{" "}

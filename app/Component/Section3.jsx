@@ -142,7 +142,7 @@ export default function Section3() {
           </div>
           <div>
             <Link
-              href={"/"}
+              href={"/feature"}
               className="flex pl-6 text-[#176164] font-semibold gap-2"
             >
               Learn More <ArrowRightIcon className="size-5" color="#176164" />
@@ -150,10 +150,12 @@ export default function Section3() {
           </div>
         </div>
         <div className="w-full flex justify-center mt-7">
-          <ButtonDemo
-            className="px-3 py-1 bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl cursor-pointer hover:bg-[#000000e4] ease-in-out duration-300"
-            text="Get Started"
-          />
+          <Link href="/feature">
+            <ButtonDemo
+              className="px-3 py-1 bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl cursor-pointer hover:bg-[#000000e4] ease-in-out duration-300"
+              text="Get Started"
+            />
+          </Link>
         </div>
       </div>
     </div>

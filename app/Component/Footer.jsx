@@ -85,9 +85,6 @@ export default function Footer() {
             <Link href={"/snippets-feature"} className="hover:text-[#005854]">
               Snippets
             </Link>
-            <Link href={"/"} className="hover:text-[#005854]">
-              Email sharing
-            </Link>
           </div>
         </div>
       </div>

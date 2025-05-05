@@ -1,6 +1,7 @@
 import React from "react";
 import { ButtonDemo } from "./Button";
 import { SonnerDemo } from "./Sonner";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -15,10 +16,12 @@ export default function HeroSection() {
         Focus on your people with Core HR, Payroll, <br /> Recruiting and more -
         all in one intelligent platform.
       </p>
-      <ButtonDemo
-        className="text-white text-sm bg-gradient-to-r from-teal-700 to-teal-900 rounded-xl cursor-pointer mt-5"
-        text="View use cases"
-      />
+      <Link href="/feature">
+        <ButtonDemo
+          className="text-white text-sm bg-gradient-to-r from-teal-700 to-teal-900 rounded-xl cursor-pointer mt-5"
+          text="View use cases"
+        />
+      </Link>
     </div>
   );
 }

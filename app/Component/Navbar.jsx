@@ -16,7 +16,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white w-full text-black py-3 px-60 flex flex-row justify-between items-center fixed z-50">
+    <nav className="bg-white w-full text-black py-3 lg:px-[13vw] px-[16%] flex flex-row justify-between items-center fixed z-50">
       <Link href="/">
         <Image
           src={"/logo.png"}
@@ -65,10 +65,12 @@ export default function Navbar() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-      <ButtonDemo
-        className="flex cursor-pointer bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl"
-        text="Join us"
-      />
+      <Link href="mailto:info@unibyte.in">
+        <ButtonDemo
+          className="flex cursor-pointer bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-xl"
+          text="Join us"
+        />
+      </Link>
     </nav>
   );
 }
