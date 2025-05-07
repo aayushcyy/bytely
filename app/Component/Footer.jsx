@@ -49,7 +49,7 @@ export default function Footer() {
             <SonnerDemo />
           </div>
         </div>
-        <div className="flex flex-col gap-4 sm:gap-2 sm:gap-2">
+        <div className="flex flex-col gap-4 sm:gap-2">
           <div className="uppercase text-gray-700 font-medium sm:text-sm">
             Industry
           </div>
