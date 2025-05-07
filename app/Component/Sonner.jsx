@@ -21,7 +21,7 @@ export function SonnerDemo() {
     <>
       <Toaster />
       <Button
-        className="border-none p-0 m-0 -mt-3 -ml-2 cursor-pointer hover:text-[#0B4F4B]"
+        className="border-none p-0 m-0 -mt-3 -ml-2 cursor-pointer hover:text-[#0B4F4B] sm:text-xs"
         variant="outline"
         onClick={() =>
           toast.custom((t) => (

@@ -28,52 +28,58 @@ export default function page() {
           </Link>
         </section>
         {/* our values */}
-        <section className="w-full py-20 flex flex-col px-60 bg-gradient-to-r from-teal-900 to-teal-600 text-white text-center">
+        <section className="w-full py-20 sm:py-10 lg:py-20 flex flex-col px-60 sm:px-10 lg:px-60 bg-gradient-to-r from-teal-900 to-teal-600 text-white text-center">
           <p className="text-3xl font-semibold">Our values</p>
           <p className="text-2xl mt-1">and commitment to you</p>
-          <div className="flex flex-wrap gap-x-8 gap-y-7 text-start mt-20">
-            <div className="flex w-[22%] gap-2">
+          <div className="flex flex-wrap gap-x-8 gap-y-7 text-start lg:mt-20 sm:mt-10">
+            <div className="flex lg:w-[22%] sm:w-[20%] lg:gap-2 sm:gap-1">
               <div className="pt-0.5">
-                <CheckIcon className="size-5" />
+                <CheckIcon className="lg:size-5 sm:size-4" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-lg font-medium">Work smart, live well</p>
+                <p className="lg:text-lg sm:text-base font-medium">
+                  Work smart, live well
+                </p>
                 <p className="text-xs text-gray-300">
                   Being effective & proud of your work is important. So is
                   having a fulfilling personal life.
                 </p>
               </div>
             </div>
-            <div className="flex w-[22%] gap-2">
+            <div className="flex lg:w-[22%] sm:w-[20%] lg:gap-2 sm:gap-1">
               <div className="pt-0.5">
-                <CheckIcon className="size-5" />
+                <CheckIcon className="lg:size-5 sm:size-4" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-lg font-medium">Growth opportunities</p>
+                <p className="lg:text-lg sm:text-base font-medium">
+                  Growth opportunities
+                </p>
                 <p className="text-xs text-gray-300">
                   We learn and grow by taking people out of their comfort zones
                   by giving them responsibility and ownership.
                 </p>
               </div>
             </div>
-            <div className="flex w-[22%] gap-2">
+            <div className="flex lg:w-[22%] sm:w-[20%] lg:gap-2 sm:gap-1">
               <div className="pt-0.5">
-                <CheckIcon className="size-5" />
+                <CheckIcon className="lg:size-5 sm:size-4" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-lg font-medium">Pass the airplane test</p>
+                <p className="lg:text-lg sm:text-base font-medium">
+                  Pass the airplane test
+                </p>
                 <p className="text-xs text-gray-300">
                   We'd love to be stuck sitting next to anyone of our teammates
                   on an international flight.
                 </p>
               </div>
             </div>
-            <div className="flex w-[22%] gap-2">
+            <div className="flex lg:w-[22%] sm:w-[20%] lg:gap-2 sm:gap-1">
               <div className="pt-0.5">
-                <CheckIcon className="size-5" />
+                <CheckIcon className="lg:size-5 sm:size-4" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-lg font-medium">
+                <p className="lg:text-lg sm:text-base font-medium">
                   High collaboration, low meeting culture
                 </p>
                 <p className="text-xs text-gray-300">
@@ -82,12 +88,14 @@ export default function page() {
                 </p>
               </div>
             </div>
-            <div className="flex w-[22%] gap-2">
+            <div className="flex lg:w-[22%] sm:w-[20%] lg:gap-2 sm:gap-1">
               <div className="pt-0.5">
-                <CheckIcon className="size-5" />
+                <CheckIcon className="lg:size-5 sm:size-4" />
               </div>
               <div className="flex flex-col gap-1">
-                <p className="text-lg font-medium">Profitable and proud</p>
+                <p className="lg:text-lg sm:text-base font-medium">
+                  Profitable and proud
+                </p>
                 <p className="text-xs text-gray-300">
                   We're a profitable company and sustainably growing. We focus
                   on building for the long term happiness of our users and
@@ -123,26 +131,34 @@ export default function page() {
           </div>
         </section>
         {/* Hiring section */}
-        <section id="hirings" className="flex flex-col px-60">
+        <section id="hirings" className="flex flex-col lg:px-60 sm:px-10">
           <div className="flex flex-col gap-1">
-            <p className="text-3xl font-semibold">We value your time</p>
-            <p className="text-2xl">
+            <p className="lg:text-3xl sm:text-2xl font-semibold">
+              We value your time
+            </p>
+            <p className="lg:text-2xl sm:text-lg">
               We respond to every applicant, so you'll never be left in the dark
             </p>
           </div>
-          <span className="h-[1px] bg-gray-300 w-full my-10" />
-          <div className="flex flex-col gap-10">
+          <span className="h-[1px] bg-gray-300 w-full lg:my-10 sm:my-7" />
+          <div className="flex flex-col lg:gap-10 sm:gap-7">
             {/* Engineering */}
-            <div className="flex flex-col gap-3">
-              <p className="text-lg font-semibold">
+            <div className="flex flex-col lg:gap-3 sm:gap-2">
+              <p className="lg:text-lg sm:text-sm font-semibold">
                 Engineering{" "}
-                <span className="text-[#0B504B] text-base">( 1 )</span>
+                <span className="text-[#0B504B] lg:text-base sm:text-xs">
+                  ( 1 )
+                </span>
               </p>
               <div>
-                <Accordion type="single" collapsible className="w-[45%]">
+                <Accordion
+                  type="single"
+                  collapsible
+                  className="lg:w-[45%] sm:w-[50%]"
+                >
                   <AccordionItem
                     value="item-1"
-                    className="rounded-sm bg-white shadow border-[1px] border-gray-200 px-4 hover:bg-gray-100"
+                    className="rounded-sm bg-white shadow border-[1px] border-gray-200 lg:px-4 sm:px-3  hover:bg-gray-100"
                   >
                     <AccordionTrigger className="hover:no-underline cursor-pointer">
                       <div className="flex w-full justify-between">
@@ -160,23 +176,23 @@ export default function page() {
                     <AccordionContent>
                       <div className="border-t-[1px] border-gray-200 pt-4 gap-5 flex flex-col">
                         <div className="flex flex-col gap-1">
-                          <p className="font-medium text-base pb-1">
+                          <p className="font-medium lg:text-base sm:text-sm pb-1">
                             Your skills
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium sm:text-xs lg:text-sm">
                             • Experience:{" "}
                             <span className="font-normal">
                               5+ years with React & TypeScript.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium sm:text-xs lg:text-sm">
                             • Strong Communicator:{" "}
                             <span className="font-normal">
                               Excellent async/written skills (docs, Looms,
                               summaries) for remote-first teamwork.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium sm:text-xs lg:text-sm">
                             • Collaborative & Pragmatic:{" "}
                             <span className="font-normal">
                               You review code, mentor peers, and balance new
@@ -185,10 +201,10 @@ export default function page() {
                           </p>
                         </div>
                         <div className="flex flex-col gap-1">
-                          <p className="font-medium text-base pb-1">
+                          <p className="font-medium lg:text-base sm:text-sm pb-1">
                             What You'll Work On
                           </p>
-                          <p>
+                          <p className="sm:text-xs lg:text-sm">
                             • High-performance real-time spreadsheets. <br />
                             • Deep Gmail UI integrations <br />
                             • Fast, local-first sync architecture <br />
@@ -199,10 +215,13 @@ export default function page() {
                             Funnel optimization for user conversion
                           </p>
                         </div>
-                        <ButtonDemo
-                          text="Apply"
-                          className="bg-[#08514D] text-white cursor-pointer"
-                        />
+
+                        <Link
+                          href="mailto:info@unibyte.in"
+                          className="bg-[#08514D] text-center text-white text-xs cursor-pointer py-2 sm:py-1.5 font-medium rounded-lg"
+                        >
+                          Apply
+                        </Link>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
@@ -211,17 +230,24 @@ export default function page() {
             </div>
             {/* Sales */}
             <div className="flex flex-col gap-3">
-              <p className="text-lg font-semibold">
+              <p className="lg:text-lg sm:text-sm font-semibold">
                 Sales <span className="text-[#0B504B] text-base"></span>
               </p>
             </div>
             {/* Sucess */}
             <div className="flex flex-col gap-3">
-              <p className="text-lg font-semibold">
-                Success <span className="text-[#0B504B] text-base">( 1 )</span>
+              <p className="lg:text-lg sm:text-sm font-semibold">
+                Success{" "}
+                <span className="text-[#0B504B] lg:text-base sm:text-xs">
+                  ( 1 )
+                </span>
               </p>
               <div>
-                <Accordion type="single" collapsible className="w-[45%]">
+                <Accordion
+                  type="single"
+                  collapsible
+                  className="lg:w-[45%] sm:w-[50%]"
+                >
                   <AccordionItem
                     value="item-1"
                     className="rounded-sm bg-white shadow border-[1px] border-gray-200 px-4 hover:bg-gray-100"
@@ -244,30 +270,30 @@ export default function page() {
                     <AccordionContent>
                       <div className="border-t-[1px] border-gray-200 pt-4 gap-5 flex flex-col">
                         <div className="flex flex-col gap-1">
-                          <p className="font-medium text-base pb-1">
+                          <p className="font-medium lg:text-base sm:text-sm pb-1">
                             What We're Looking For
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • People-Loving & Curious:{" "}
                             <span className="font-normal">
                               You enjoy meeting users and learning how they
                               work.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • Clear Communicator:{" "}
                             <span className="font-normal">
                               You explain things simply—on calls or in writing.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • Resilient & Driven:{" "}
                             <span className="font-normal">
                               You stay motivated, push through challenges, and
                               take initiative.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • Product & Process Focused:{" "}
                             <span className="font-normal">
                               You improve both the product and how we support
@@ -276,24 +302,24 @@ export default function page() {
                           </p>
                         </div>
                         <div className="flex flex-col gap-1">
-                          <p className="font-medium text-base pb-1">
+                          <p className="font-medium lg:text-base sm:text-sm pb-1">
                             About the Role
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • Support SMB Teams:{" "}
                             <span className="font-normal">
                               Help SMBs post-onboarding, answer questions, and
                               promote relevant features.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • Scale Customer Success:{" "}
                             <span className="font-normal">
                               Run scalable programs like Streak Classes to reach
                               more users efficiently.
                             </span>
                           </p>
-                          <p className="font-medium">
+                          <p className="font-medium lg:text-base sm:text-xs">
                             • Performance Bonus:{" "}
                             <span className="font-normal">
                               Part of your pay is tied to customer success and
@@ -301,10 +327,12 @@ export default function page() {
                             </span>
                           </p>
                         </div>
-                        <ButtonDemo
-                          text="Apply"
-                          className="bg-[#08514D] text-white cursor-pointer"
-                        />
+                        <Link
+                          href="mailto:info@unibyte.in"
+                          className="bg-[#08514D] text-center text-white text-xs cursor-pointer py-2 sm:py-1.5 font-medium rounded-lg"
+                        >
+                          Apply
+                        </Link>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
@@ -313,19 +341,19 @@ export default function page() {
             </div>
             {/* Product & Design */}
             <div className="flex flex-col gap-3">
-              <p className="text-lg font-semibold">
+              <p className="lg:text-lg sm:text-sm font-semibold">
                 Product & Design{" "}
                 <span className="text-[#0B504B] text-base"></span>
               </p>
             </div>
             {/* Operations */}
             <div className="flex flex-col gap-3">
-              <p className="text-lg font-semibold">
+              <p className="lg:text-lg sm:text-sm font-semibold">
                 Operations <span className="text-[#0B504B] text-base"></span>
               </p>
             </div>
             <span className="h-[1px] bg-gray-300 w-full my-10" />
-            <div className="w-full pb-5 flex flex-col items-center gap-1">
+            <div className="w-full lg:pb-5 sm:pb-0 flex flex-col items-center gap-1">
               <p className="text-xl font-semibold">
                 Don't see something that fits?
               </p>

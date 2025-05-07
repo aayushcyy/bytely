@@ -8,8 +8,8 @@ import { SonnerDemo } from "./Sonner.jsx";
 
 export default function Footer() {
   return (
-    <div className="w-full xl:h-[50vh] lg:h-[35vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10">
-      <div className="flex justify-between xl:px-60 lg:px-40">
+    <div className="w-full xl:h-[50vh] lg:h-[35vh] flex flex-col justify-between border-t-[2px] border-gray-300 pt-10 sm:pt-7 sm:gap-7">
+      <div className="flex justify-between xl:px-60 lg:px-40 sm:px-10">
         <div className="flex flex-col gap-2">
           <Link href="/">
             <Image
@@ -17,12 +17,12 @@ export default function Footer() {
               height={600}
               width={600}
               alt=""
-              className="w-32 h-auto"
+              className="w-32 h-auto sm:w-20"
             />
           </Link>
-          <p className="text-sm flex items-center gap-1">
+          <p className="text-sm sm:text-xs flex items-center gap-1">
             <span>
-              <EnvelopeIcon className="size-4 stroke-1.5" />
+              <EnvelopeIcon className="size-4 sm:size-3.5 stroke-1.5" />
             </span>
             <Link
               href="mailto:info@unibyte.in"
@@ -32,9 +32,11 @@ export default function Footer() {
             </Link>
           </p>
         </div>
-        <div className="flex flex-col gap-4">
-          <div className="uppercase text-gray-700 font-medium">Company</div>
-          <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
+        <div className="flex flex-col gap-4 sm:gap-2">
+          <div className="uppercase text-gray-700 font-medium sm:text-sm">
+            Company
+          </div>
+          <div className="flex flex-col text-sm sm:text-xs text-gray-500 font-medium gap-1">
             <Link href={"/about"} className="hover:text-[#005854]">
               About us
             </Link>
@@ -47,9 +49,11 @@ export default function Footer() {
             <SonnerDemo />
           </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <div className="uppercase text-gray-700 font-medium">Industry</div>
-          <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
+        <div className="flex flex-col gap-4 sm:gap-2 sm:gap-2">
+          <div className="uppercase text-gray-700 font-medium sm:text-sm">
+            Industry
+          </div>
+          <div className="flex flex-col text-sm sm:text-xs text-gray-500 font-medium gap-1">
             <Link href={"/venture-capital"} className="hover:text-[#005854]">
               Venture Capital
             </Link>
@@ -70,9 +74,11 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-4">
-          <div className="uppercase text-gray-700 font-medium">Feature</div>
-          <div className="flex flex-col text-sm text-gray-500 font-medium gap-1">
+        <div className="flex flex-col gap-4 sm:gap-2">
+          <div className="uppercase text-gray-700 font-medium sm:text-sm">
+            Feature
+          </div>
+          <div className="flex flex-col text-sm sm:text-xs text-gray-500 font-medium gap-1">
             <Link href={"/feature"} className="hover:text-[#005854]">
               CRM
             </Link>

@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div className="w-full flex flex-col">
       <Navbar />
-      <section className="flex flex-col pt-32 items-center px-72 gap-3 pb-40">
+      <section className="flex flex-col pt-32 items-center px-72 sm:px-10 gap-3 pb-40">
         <p className="text-4xl font-semibold">About us</p>
         <p className="text-2xl mb-8">Great people make great products</p>
         <p className="text-center text-gray-600 w-[85%]">

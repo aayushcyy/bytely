@@ -7,8 +7,8 @@ export default function page() {
   return (
     <div className="w-full flex flex-col">
       <Navbar />
-      <section className="flex flex-col px-64 gap-10 mb-20">
-        <p className="text-4xl text-center font-semibold text-[#09514C] pt-40 pb-28">
+      <section className="flex flex-col lg:px-64 sm:px-14 gap-10 mb-20 ">
+        <p className="lg:text-4xl sm:text-3xl text-center font-semibold text-[#09514C] lg:pt-40 sm:pt-32 lg:pb-28 sm:pb-16">
           Terms of Service
         </p>
         <div className="flex flex-col items-start gap-4 text-sm">

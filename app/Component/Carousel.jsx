@@ -44,11 +44,13 @@ export default function CarouselDemo() {
         {feedback.map((feed, index) => (
           <CarouselItem key={index} className="">
             <div className="p-1">
-              <Card className="w-full max-w-xl flex flex-col text-center border-none border-[#176164] shadow-none">
+              <Card className="w-full max-w-xl flex flex-col sm:gap-0 text-center border-none border-[#176164] shadow-none">
                 <CardHeader>
-                  <CardTitle className="text-lg">"{feed.says}"</CardTitle>
+                  <CardTitle className="text-lg sm:text-sm sm:mb-5 ">
+                    "{feed.says}"
+                  </CardTitle>
                 </CardHeader>
-                <p className="text-sm font-semibold ">{feed.name}</p>
+                <p className="text-sm sm:text-xs font-semibold ">{feed.name}</p>
                 <p className="text-xs text-[#ffffff94]">{feed.position}</p>
               </Card>
             </div>
