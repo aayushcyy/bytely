@@ -31,7 +31,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Send Later Integrated into Gmail
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500">
+                <p className="text-sm lg:text-base text-gray-500">
                   Streak adds the Send Later feature directly into your Gmail
                   toolbar.
                 </p>
@@ -40,7 +40,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Use Plain English
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500">
+                <p className="text-sm lg:text-base text-gray-500">
                   Want to write an email now but schedule to send it 'next
                   monday 8am'? No problem!
                 </p>
@@ -69,7 +69,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Send Later, Worry Never
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500">
+                <p className="text-sm lg:text-base text-gray-500">
                   UniByte doesn't host your email. 'Send later' messages remain
                   safely at home in your drafts. Not only is this extra secure,
                   but you can edit your message at any time before it is sent.
@@ -99,7 +99,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Send Sales Follow Ups at the Appropriate Time
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500">
+                <p className="text-sm lg:text-base text-gray-500">
                   Use 'send later' to arrive in the inbox of a potential
                   customer at the perfect moment.
                 </p>
@@ -108,7 +108,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Post Demo Follow Up
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500">
+                <p className="text-sm lg:text-base text-gray-500">
                   Write a follow-up based on the demo you just completed.
                   Include context and answer questions while you're in the
                   moment.
@@ -118,7 +118,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Wish Your Best Customers Happy Birthday!
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500">
+                <p className="text-sm lg:text-base text-gray-500">
                   Create a personal touch with your best customers on their
                   birthday. Schedule your best wishes in advance and never miss
                   another opportunity.

@@ -23,25 +23,25 @@ export default function Navbar() {
           height={600}
           width={600}
           alt=""
-          className="w-24 h-auto sm:w-[4.5rem]"
+          className="w-24 lg:w-24 h-auto sm:w-[4.5rem]"
         />
       </Link>
       <NavigationMenu>
-        <NavigationMenuList className="">
+        <NavigationMenuList className="lg:gap-8">
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="cursor-pointer sm:text-xs">
+            <NavigationMenuTrigger className="cursor-pointer sm:text-xs lg:text-base">
               Product
             </NavigationMenuTrigger>
             <NavigationMenuContent className="bg-white sm:py-0 sm:px-0">
               <NavigationMenuLink
                 href="/feature"
-                className="xl:w-40 lg:w-32 sm:w-[7rem] sm:py-0 sm:text-xs sm:pt-2"
+                className="xl:w-40 lg:w-32 sm:w-[7rem] sm:py-0 sm:text-xs lg:text-base sm:pt-2"
               >
                 CRM
               </NavigationMenuLink>
               <NavigationMenuLink
                 href="/email-tracking"
-                className="sm:text-xs sm:pb-2"
+                className="sm:text-xs lg:text-base sm:pb-2"
               >
                 Email Tracking
               </NavigationMenuLink>
@@ -49,25 +49,25 @@ export default function Navbar() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="cursor-pointer sm:text-xs">
+            <NavigationMenuTrigger className="cursor-pointer sm:text-xs lg:text-base">
               Workflows
             </NavigationMenuTrigger>
             <NavigationMenuContent className="bg-white sm:py-0 sm:px-0">
               <NavigationMenuLink
                 href="/hiring-ats"
-                className="w-48 xl:w-40 lg:w-32 sm:w-[7rem] sm:py-0 sm:text-xs sm:pt-2"
+                className="w-48 xl:w-40 lg:w-32 sm:w-[7rem] sm:py-0 sm:text-xs lg:text-base sm:pt-2"
               >
                 Hiring
               </NavigationMenuLink>
               <NavigationMenuLink
                 href="/support-crm"
-                className="xl:w-40 lg:w-32 sm:w-[7rem] sm:py-0 sm:text-xs sm:pt-2"
+                className="xl:w-40 lg:w-32 sm:w-[7rem] sm:py-0 sm:text-xs lg:text-base sm:pt-2"
               >
                 Support
               </NavigationMenuLink>
               <NavigationMenuLink
                 href="/product-development"
-                className="xl:w-40 lg:w-32 sm:w-[10rem] sm:text-xs sm:py-2"
+                className="lg:w-52 sm:w-[10rem] sm:text-xs lg:text-base sm:py-2"
               >
                 Product Development
               </NavigationMenuLink>
@@ -76,7 +76,7 @@ export default function Navbar() {
           <NavigationMenuItem>
             <NavigationMenuLink
               href="/about"
-              className="font-medium sm:text-xs"
+              className="font-medium sm:text-xs lg:text-base"
             >
               About Us
             </NavigationMenuLink>
@@ -84,7 +84,7 @@ export default function Navbar() {
         </NavigationMenuList>
       </NavigationMenu>
       <Link href="mailto:info@unibyte.in">
-        <p className="text-xs font-medium cursor-pointer bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-lg px-3 py-1.5">
+        <p className="text-xs lg:text-sm font-medium cursor-pointer bg-gradient-to-tl from-teal-800 to-teal-900 text-white rounded-lg px-3 py-1.5">
           Join us
         </p>
       </Link>

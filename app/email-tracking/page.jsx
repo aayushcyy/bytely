@@ -26,7 +26,7 @@ export default function page() {
               <StarIcon className="size-5 text-yellow-500" />
               <StarIcon className="size-5 text-yellow-500" />
             </p>
-            <p className="text-sm tablet:text-sm text-gray-400">
+            <p className="text-sm lg:text-base text-gray-400">
               50,000+ positive reviews
             </p>
           </div>
@@ -50,7 +50,7 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             when your email is opened
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Get immediately notified with a browser or email notification as
             soon as the recipient opens your email.
           </p>
@@ -74,7 +74,7 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             with a single-click
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Turn email tracking on or off with a simple toggle right in the
             Gmail compose window.
           </p>
@@ -98,7 +98,7 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             in an organized list
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Know exactly who to follow up with next based on when they opened
             your last email. See all your tracked emails in chronological order.
           </p>

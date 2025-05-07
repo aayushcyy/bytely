@@ -66,12 +66,12 @@ export default function page() {
             Startup fundraising
           </p>
           <p className="text-2xl md:text-3xl tablet:text-2xl">in your inbox</p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
-            Many reputated startups uses UniByte to manage startup fundraising
+          <p className="text-gray-500 text-sm lg:text-base">
+            Many reputated startups uses UniByte lgmanagebasetartup fundraising
             for each batch, and so can you. Stay on top of conversations and
             follow up with investors to close a successful round.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Keep investor conversations organized"
               TriggerIcon={EnvelopeIcon}
@@ -114,12 +114,12 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             to scale your startup
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
-            Don't let recruitment and hiring eat away at your time. Track
+          <p className="text-gray-500 text-sm lg:text-base">
+            Don't let recruitment and hiring eat lgy at ybaser time. Track
             referrals, applications, and interviews right inside Gmail. Share
             notes from interviews and save time on bulk outreach.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Track candidates for multiple roles in one pipeline"
               TriggerIcon={ListBulletIcon}
@@ -185,7 +185,7 @@ export default function page() {
               <CheckIcon className="size-5 text-[#69faf2] mt-1 flex-shrink-0" />
               <div>
                 <p className="font-medium tablet:text-sm">{item.title}</p>
-                <p className="text-xs tablet:text-xs text-gray-300">
+                <p className="text-xs lg:text-sm text-gray-300">
                   {item.description}
                 </p>
               </div>
@@ -203,11 +203,11 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             with customer interviews and market research
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Work more efficiently in your inbox and reach buyers and sellers at
             the right time with targeted follow-up.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Upload customer lists with the importer tool"
               TriggerIcon={EyeIcon}

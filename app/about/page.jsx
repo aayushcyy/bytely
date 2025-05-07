@@ -11,7 +11,7 @@ export default function page() {
       <section className="flex flex-col pt-32 items-center px-72 sm:px-10 gap-3 pb-40">
         <p className="text-4xl font-semibold">About us</p>
         <p className="text-2xl mb-8">Great people make great products</p>
-        <p className="text-center text-gray-600 w-[85%]">
+        <p className="text-center text-gray-600 w-[85%] lg:w-[60%]">
           UniByte was born out of the frustration of constantly switching
           between our inbox (where we do our work) and external systems. Our
           goal is to make it simple to manage your everyday processes so you can

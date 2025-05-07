@@ -65,7 +65,7 @@ export default function page() {
     <div className="w-full flex flex-col">
       <Navbar />
       {/* Section 1 */}
-      <section className="w-full xl:h-[70vh] lg:h-[55vh] py-3 xl:px-62 lg:px-36 sm:px-10 flex flex-col pt-20 relative">
+      <section className="w-full xl:h-[70vh] lg:h-[55vh] py-3 lg:px-52 sm:px-10 flex flex-col pt-20 relative">
         <p className="uppercase lg:text-base sm:text-xs">Use Cases</p>
         <p className="lg:text-3xl sm:text-xl sm:font-semibold lg:font-bold">
           Manage any workflow from your inbox
@@ -85,19 +85,21 @@ export default function page() {
                     color="#08514C"
                   />
                 </div>
-                <div className="text-xs text-gray-600">{item.subHead}</div>
+                <div className="text-xs lg:text-sm text-gray-600">
+                  {item.subHead}
+                </div>
               </div>
             );
           })}
           <div className="flex items-center justify-center rounded-sm cursor-pointer px-4 py-3 gap-1 w-[22%]">
-            <div className="flex items-center text-gray-600 text-xs justify-between">
+            <div className="flex items-center text-gray-600 text-xs lg:text-sm justify-between">
               <p className="">...or fully customize to you unique needs</p>
             </div>
           </div>
         </div>
       </section>
       {/* Section 2 */}
-      <section className="border-t-[1px] border-gray-300 bg-[#FAFAFA] py-20 w-full xl:h-[91vh] lg:h-[60vh] flex xl:px-62 lg:px-36 sm:px-10 gap-10">
+      <section className="border-t-[1px] border-gray-300 bg-[#FAFAFA] py-20 w-full xl:h-[91vh] lg:h-[60vh] flex lg:px-52 sm:px-10 gap-10">
         <div className="xl:w-[42%] lg:w-[45%] sm:w-[40%] flex flex-col gap-2">
           <p className="xl:text-3xl lg:text-2xl sm:text-2xl font-bold">
             Track everything
@@ -178,7 +180,7 @@ export default function page() {
         </div>
       </section>
       {/* Section 3 */}
-      <section className="w-full py-20 xl:px-62 lg:px-36 sm:px-10 flex flex-col items-center text-white bg-gradient-to-br from-[#074b48] to-[#095d59] gap-1">
+      <section className="w-full py-20 lg:px-52 sm:px-10 flex flex-col items-center text-white bg-gradient-to-br from-[#074b48] to-[#095d59] gap-1">
         <p className="xl:text-3xl lg:text-2xl sm:text-xl font-semibold">
           We scale with you
         </p>
@@ -192,7 +194,7 @@ export default function page() {
             </div>
             <div className="flex flex-col gap-1">
               <p>Multi-team support</p>
-              <p className="text-xs text-gray-400">
+              <p className="text-xs lg:text-sm text-gray-400">
                 Because everyone should use a CRM, from sales to hiring to
                 support
               </p>
@@ -204,7 +206,7 @@ export default function page() {
             </div>
             <div className="flex flex-col gap-1">
               <p>Custom permissions</p>
-              <p className="text-xs text-gray-400">
+              <p className="text-xs lg:text-sm text-gray-400">
                 So you can control who has access to your information
               </p>
             </div>
@@ -215,7 +217,7 @@ export default function page() {
             </div>
             <div className="flex flex-col gap-1">
               <p>Data validation</p>
-              <p className="text-xs text-gray-400">
+              <p className="text-xs lg:text-sm text-gray-400">
                 To make sure your team is consistent and accurate
               </p>
             </div>
@@ -226,7 +228,7 @@ export default function page() {
             </div>
             <div className="flex flex-col gap-1">
               <p>Reporting tools</p>
-              <p className="text-xs text-gray-400">
+              <p className="text-xs lg:text-sm text-gray-400">
                 So you can visualize your teams progress
               </p>
             </div>

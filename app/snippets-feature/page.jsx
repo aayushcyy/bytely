@@ -28,7 +28,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Instantly Complete Email
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   We all have an email we're sick of writing. Fill out saved
                   text (a Snippet) with one key command.
                 </p>
@@ -37,7 +37,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Set to Any Shortcut
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   Create the shortcut that makes most sense for you. Snippets
                   can be called using hashtags, dollar signs, or even natural
                   language.
@@ -47,7 +47,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Includes Subjects
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   Email needs subjects, so we baked them into Snippets too.
                 </p>
               </div>
@@ -75,7 +75,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Built Into Toolbar
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   Working with Snippets is easy because we've worked them
                   directly into Gmail. Managing or selecting snippets is always
                   one click away.
@@ -85,7 +85,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Compose or Reply
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   Save time with Snippets whether you are responding to an email
                   or composing a new message.
                 </p>
@@ -114,7 +114,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Share With as a Team
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   Chances are time-saving snippets can also help others on your
                   team. Snippets are shareable between all Streak collaborators.
                 </p>
@@ -123,7 +123,7 @@ export default function page() {
                 <p className="lg:text-xl sm:text-lg font-semibold">
                   Process Specific
                 </p>
-                <p className="text-sm tablet:text-sm text-gray-500 mt-1">
+                <p className="text-sm lg:text-base text-gray-500 mt-1">
                   Snippets can be associated to different teams or functions, so
                   there's no need to share all Snippets.
                 </p>

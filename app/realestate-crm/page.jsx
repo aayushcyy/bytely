@@ -65,11 +65,11 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             and documents in Gmail
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Keep track of all the details and documents you need to close a deal
             in one place.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Real Estate data seamlessly integrated into Gmail"
               TriggerIcon={EnvelopeIcon}
@@ -112,12 +112,12 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             with buyers and sellers
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Gain valuable insights about your clients, access their data when
             you need it, and always add a personal touch without ever leaving
             Gmail.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="360° view of your contacts and their history"
               TriggerIcon={UserCircleIcon}
@@ -206,12 +206,12 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             for every step of your process
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Quit relying on your memory or your scratch pad to get everything
             done. Make sure nothing slips through the cracks with tasks for
             every step of your process.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Custom task lists for each stage"
               TriggerIcon={ListBulletIcon}

@@ -76,12 +76,12 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             and brand outreach campaigns
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Manage talent and brand partnerships inside Gmail. UniByte replaces
             spreadsheets and scattered tools with a fast, flexible CRM built
             into Google Workspace.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Keep your talent roster organized in Gmail"
               TriggerIcon={UserCircleIcon}
@@ -119,11 +119,11 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             to run successful campaigns
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Streamline agency operations and keep campaigns, creators, and brand
             deliverables on track—without leaving Gmail.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Stay aligned on brand and creator updates"
               TriggerIcon={ChartBarSquareIcon}
@@ -213,11 +213,11 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             with email power tools
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Work more efficiently in your inbox to make sure you're making the
             most of your limited time.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Track views on your sent emails"
               TriggerIcon={EyeIcon}

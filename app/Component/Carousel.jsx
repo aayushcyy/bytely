@@ -46,12 +46,14 @@ export default function CarouselDemo() {
             <div className="p-1">
               <Card className="w-full max-w-xl flex flex-col sm:gap-0 text-center border-none border-[#176164] shadow-none">
                 <CardHeader>
-                  <CardTitle className="text-lg sm:text-sm sm:mb-5 ">
+                  <CardTitle className="lg:text-2xl lg:font-medium sm:text-sm sm:mb-5 ">
                     "{feed.says}"
                   </CardTitle>
                 </CardHeader>
-                <p className="text-sm sm:text-xs font-semibold ">{feed.name}</p>
-                <p className="text-xs text-[#ffffff94]">{feed.position}</p>
+                <p className="lg:text-sm sm:text-xs font-semibold lg:font-medium lg:mb-1">
+                  {feed.name}
+                </p>
+                <p className="lg:text-xs text-[#ffffff94]">{feed.position}</p>
               </Card>
             </div>
           </CarouselItem>

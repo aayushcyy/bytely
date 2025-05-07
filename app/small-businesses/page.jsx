@@ -77,11 +77,11 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             with a healthy sales pipeline
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Prioritize important deals and always know where to focus your
             energy within your sales or orders pipeline.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Start moving leads through your pipeline"
               TriggerIcon={UserCircleIcon}
@@ -124,12 +124,12 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             and expand your network
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
-            With completely customizable pipelines, you can keep track of your
+          <p className="text-gray-500 text-sm lg:text-base">
+            With completely customizable pipelineslgyou cabasekeep track of your
             contacts across numerous deals and projects. From your desktop Gmail
             app and on the go.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Expand your network and fill your pipeline"
               TriggerIcon={DevicePhoneMobileIcon}
@@ -213,11 +213,11 @@ export default function page() {
           <p className="text-2xl md:text-3xl tablet:text-2xl">
             with email power tools
           </p>
-          <p className="text-gray-500 text-sm tablet:text-sm">
+          <p className="text-gray-500 text-sm lg:text-base">
             Work more efficiently in your inbox to make sure you're making the
             most of your limited time.
           </p>
-          <div className="mt-4 flex flex-col gap-3 tablet:w-[90%]">
+          <div className="mt-4 flex flex-col tablet:w-[90%]">
             <HoverCardDemo
               triggerText="Track views on your sent emails"
               TriggerIcon={EyeIcon}

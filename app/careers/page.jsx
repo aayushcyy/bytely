@@ -273,27 +273,27 @@ export default function page() {
                           <p className="font-medium lg:text-base sm:text-sm pb-1">
                             What We're Looking For
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • People-Loving & Curious:{" "}
                             <span className="font-normal">
                               You enjoy meeting users and learning how they
                               work.
                             </span>
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • Clear Communicator:{" "}
                             <span className="font-normal">
                               You explain things simply—on calls or in writing.
                             </span>
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • Resilient & Driven:{" "}
                             <span className="font-normal">
                               You stay motivated, push through challenges, and
                               take initiative.
                             </span>
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • Product & Process Focused:{" "}
                             <span className="font-normal">
                               You improve both the product and how we support
@@ -302,24 +302,24 @@ export default function page() {
                           </p>
                         </div>
                         <div className="flex flex-col gap-1">
-                          <p className="font-medium lg:text-base sm:text-sm pb-1">
+                          <p className="font-medium lg:text-sm sm:text-sm pb-1">
                             About the Role
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • Support SMB Teams:{" "}
                             <span className="font-normal">
                               Help SMBs post-onboarding, answer questions, and
                               promote relevant features.
                             </span>
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • Scale Customer Success:{" "}
                             <span className="font-normal">
                               Run scalable programs like Streak Classes to reach
                               more users efficiently.
                             </span>
                           </p>
-                          <p className="font-medium lg:text-base sm:text-xs">
+                          <p className="font-medium lg:text-sm sm:text-xs">
                             • Performance Bonus:{" "}
                             <span className="font-normal">
                               Part of your pay is tied to customer success and

@@ -62,11 +62,11 @@ export default function page() {
             Track deal flow in Gmail
           </p>
           <p className="sm:text-xl md:text-3xl">and prioritize companies</p>
-          <p className="text-gray-500 sm:text-xs">
+          <p className="text-gray-500 sm:text-xs lg:text-base ">
             Never miss out on a deal. Identify high-quality companies and push
             your deals forward with pipelines in Gmail.
           </p>
-          <div className="mt-4 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col">
             <HoverCardDemo
               triggerText="Investment Data seamlessly integrated into Gmail"
               TriggerIcon={EnvelopeIcon}
@@ -107,11 +107,11 @@ export default function page() {
             Manage your capital raise
           </p>
           <p className="sm:text-xl md:text-2xl">and LP relationships</p>
-          <p className="text-gray-500 sm:text-xs lg:text-sm">
+          <p className="text-gray-500 sm:text-xs lg:text-base">
             See a complete timeline of your interactions with each LP. Keep
             track of their interests and personal details all in one place.
           </p>
-          <div className="mt-4 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col">
             <HoverCardDemo
               triggerText="Investment history for each contact"
               TriggerIcon={UserCircleIcon}
@@ -200,7 +200,7 @@ export default function page() {
             Coordinate support and stay in touch with each company in your
             portfolio.
           </p>
-          <div className="mt-4 flex flex-col gap-3">
+          <div className="mt-4 flex flex-col">
             <HoverCardDemo
               triggerText="Create tasks to help your portfolio companies succeed"
               TriggerIcon={ShieldCheckIcon}
